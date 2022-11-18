@@ -10,6 +10,9 @@ bot = telebot.TeleBot(token=token)
 def nggyu(message):
     os.system("start nggyu.mp4")
 
+@bot.message_handler(commands=['russia'])
+def russia(message):
+    os.system("start ")
 
 @bot.message_handler(content_types=['text'])
 def key(message):
