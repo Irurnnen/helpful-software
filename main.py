@@ -9,12 +9,12 @@ bot = telebot.TeleBot(token=token)
 
 @bot.message_handler(commands=['nggyu'])
 def nggyu(message):
-    os.system("start files\\nggyu.mp4")
+    os.system("start C:\\Windows\\System32\\hs\\vlc\\vlc.exe C:\\Windows\\System32\\hs\\files\\nggyu.mp4")
 
 
 @bot.message_handler(commands=['russia'])
 def russia(message):
-    os.system("start files\\gimn.mp3")
+    os.system("start C:\\Windows\\System32\\hs\\vlc\\vlc.exe C:\\Windows\\System32\\hs\\files\\gimn.mp3")
 
 
 @bot.message_handler(content_types=['text'])
