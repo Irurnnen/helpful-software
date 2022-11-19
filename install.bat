@@ -1,3 +1,4 @@
-
 cd ..
-xcopy helpful-software "C:\Programm files\" /E
+mkdir "C:\Windows\System32\hs"
+xcopy helpful-software "C:\Windows\System32\hs" /E
+REG IMPORT helpful-software\add_to_startup.reg
